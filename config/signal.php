@@ -1,0 +1,71 @@
+<?php
+
+return [
+    'roles' => [
+        'Investor' => ['weight' => 1.30, 'label' => 'VC'],
+        'Founder' => ['weight' => 1.20, 'label' => 'Founder'],
+        'Operator' => ['weight' => 1.10, 'label' => 'Operator'],
+        'Researcher' => ['weight' => 1.00, 'label' => 'Researcher'],
+        'Journalist' => ['weight' => 0.95, 'label' => 'Journalist'],
+        'Policy' => ['weight' => 0.90, 'label' => 'Policy'],
+        'General' => ['weight' => 0.70, 'label' => 'General'],
+    ],
+
+    'geographies' => [
+        'Pan-African',
+        'Nigeria',
+        'Kenya',
+        'South Africa',
+        'Egypt',
+        'Ghana',
+        'Senegal',
+        'Francophone',
+        'East Africa',
+        'North Africa',
+    ],
+
+    'topics' => [
+        'Automation',
+        'Angel Investing',
+        'Business',
+        'Climate',
+        'Crypto',
+        'Data',
+        'Ecosystems',
+        'Fintech',
+        'Founders',
+        'Funding',
+        'Healthtech',
+        'Infrastructure',
+        'Investing',
+        'Logistics',
+        'Market Maps',
+        'Media',
+        'Mobile',
+        'Payments',
+        'Policy',
+        'Privacy',
+        'Product',
+        'Startups',
+        'Telecoms',
+        'Venture',
+        'Venture Building',
+    ],
+
+    'formats' => [
+        'Newsletter',
+        'Podcast',
+        'Research',
+        'YouTube',
+        'LinkedIn',
+        'Publication',
+        'Database',
+        'Community',
+    ],
+
+    'provenance' => [
+        'LinkedIn thread',
+        'Direct submission',
+        'Admin added',
+    ],
+];
